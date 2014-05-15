@@ -1,0 +1,149 @@
+body,div,ul,li,p,h1,h2,h3,h4,h5,h6,img,a,span{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border:0 none;
+}
+body{
+	text-align: center;
+	color:#666;
+	font: 12px/1.5 hiragino sans gb,microsoft yahei,simsun;
+}
+#container{
+	width:80%;
+	min-width: 1082px;
+	max-width: 1300px;
+	width:1082px;
+	/*_width:expression(document.body.clientWidth < 1080 ? "1050px" : "auto");
+	_width:expression(document.body.clientWidth > 1300 ? "1300px" : "auto");*/
+	margin: 0 auto;
+}
+#header{
+	width:100%;
+	height:120px;
+	position: relative;
+}
+.logo_part{/*左边logo部分*/
+	float:left;
+	position: relative;
+	margin-left: 6%;
+	margin-top: 15px;
+	display: inline;
+	height:65px;
+}
+.tx_logo,.dx_logo{
+	float: left;	
+	display: block;
+	width:120px;
+	height:54px;
+	
+}
+.tx_logo{/*腾讯logo部分*/
+	background: url('../images/commen.png') 0px 0px no-repeat ;
+}
+.dx_logo{/*电信logo部分*/
+	background: url('../images/commen.png') -110px 0px no-repeat ;
+}
+.and{/*两个logo中间的竖线*/
+	float: left;
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	width:3px;
+	height:40px;
+	margin-top: 5px;
+	background: url('../images/and.jpg') 0px 0px repeat-y ;
+
+}
+.cooperation_State{/*合作声明*/
+	float: right;
+	display: inline;
+	margin-right: 6%;
+	margin-top: 20px;
+	width:45%;
+	height:40px;
+	line-height: 40px;
+	background-color: #EDEEF0;
+	border:1px solid #DCDCDC;
+	font-size: 11px;
+	color:#000;
+
+}
+.nav{
+	clear: both;
+	width:100%;
+	height: 40px;
+	position: relative;
+	background: url('../images/nav.jpg') 0px 0px repeat-x;
+	z-index:99;
+}
+.nav_inner{
+	width:88%;
+	height:40px;
+	line-height: 40px;
+	position: relative;
+	margin: 0 6%;
+}
+.video_classfy{
+	float:left;
+	display: inline;
+	width:56%;
+	height:40px;
+	position: relative;
+	margin: 0;
+	/*border-right: 1px solid #ccc;*/
+}
+.video_classfy ul,.video_channel ul{
+	list-style-type: none;
+	position: relative;
+}
+.video_classfy ul li,.video_channel ul li{
+	float: left;
+	position: relative;
+	display: inline;
+}
+.video_classfy ul li a,.video_channel ul li a{
+	display: block;
+	width:61px;
+	height:40px;
+	color:#fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.home_page{
+	background: url('../images/nav_change.jpg') 0 0 no-repeat;
+}
+.video_classfy ul li.home_page a{
+	color:#000;
+	font-weight: bolder;
+}
+.delimiter{
+	margin:13px 0 0 0;
+	width:1px;
+	height: 17px;
+	float: left;
+	z-index: 1000;
+}
+.video_channel{
+	float: right;
+	display: inline;
+	width:41%;
+	height: 40px;
+	margin-right: 0;
+}
+.video_channel ul li{
+	float:right;
+}
+.video_channel ul li a{
+	width:40px;
+	color: #D7D7D7;
+	font-size: 10px;
+	margin: 0;
+}
+.video_channel ul li a.tx_production{
+	width:50px;
+}
+.video_channel ul li a:hover{
+	color:#fff;
+}
